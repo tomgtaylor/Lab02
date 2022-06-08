@@ -48,6 +48,7 @@ let myTravel = prompt("Did I ever live in China and Taiwan? y / n ");
     } if (myTravel === "y") {
     	alert("Well done " + userName + ". On to the next question.");
     }
+        //console.log(userName + " answered " + myTravel + about if I was elected US President.);
 //---------------------------Name Prompt-----------------------------
 
 let myAge = prompt("Am I 28 years old? y / n ");
