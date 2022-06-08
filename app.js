@@ -2,10 +2,10 @@
 
 let userName = prompt("What is your name?");
 alert("Welcome to my site " + userName + ".");
-alert("Good luck answering the below questions " + userName + ".");
+alert(userName + ", Good luck answering the below questions.");
 //---------------------------Name Prompt-----------------------------
 
-let myCity = prompt("Do I live in Spokane, WA?  y or n ")
+let myCity = prompt("Do I live in Spokane, WA?  y / n ")
     if (myCity == "y") {
         alert("well done " + userName + ", you are correct!");
     } else if (myCity == "n") {
@@ -13,11 +13,11 @@ let myCity = prompt("Do I live in Spokane, WA?  y or n ")
     } else if (myCity == "") {
     	alert("Listen " + userName + ", you should pick an answer.")
     }
-        //console.log("the user answered " + myCity " about me living in Spokane.");
+        //console.log(userName + " answered " + myCity + " about me living in Spokane.");
         
 //---------------------------Name Prompt-----------------------------  
         
-let myEd = prompt("Did I graduate from WSU? y / n");
+let myEd = prompt("Did I graduate from WSU? y / n ");
 	if (myEd == "y") {
     	alert("Bingo " + userName + ". That is correct. I graduated from WSU.");
     } else if (myEd == "n") {
@@ -25,11 +25,11 @@ let myEd = prompt("Did I graduate from WSU? y / n");
     } else if (myEd == "") {
         alert("Seriously " + userName + "??  It's a yes or no answer. It's not rocket science.");        
     }
-    	//console.log("the user answered" + myName);
+    	//console.log(userName + " answered" + myName + "about whether I graduated from WSU.");
                
 //---------------------------Name Prompt-----------------------------    
 
-let myWork = prompt("Was I elected President of the USA? y / n");
+let myWork = prompt("Was I elected President of the USA? y / n ");
 	if (myWork == "y") {
     	alert("I appreciate the support " + userName + ", but that is incorrect. I was never the President.")
     } else if (myWork == "n") {
@@ -37,5 +37,24 @@ let myWork = prompt("Was I elected President of the USA? y / n");
     } else if (myWork == "") {
     	alert("It's one thing to abstain from a Presidential vote " + userName + ", but it's another whole issue not to type a simple  'y or n'... I mean, it's literally one button!!");
     }
+		//console.log(userName + " answered " + myWork + "about if I was elected US President.");
 
-//---------------------------Name Prompt-----------------------------   
+//---------------------------Name Prompt-----------------------------
+
+let myTravel = prompt("Did I ever live in China and Taiwan? y / n ");
+	while (myTravel != "y") {
+    	alert("No no no.... " + userName + " That's completely wrong. TRY AGAIN.");
+        myTravel = prompt("Try again. Did I ever live in China and Taiwan?? y or n")
+    } if (myTravel === "y") {
+    	alert("Well done " + userName + ". On to the next question.");
+    }
+//---------------------------Name Prompt-----------------------------
+
+let myAge = prompt("Am I 28 years old? y / n ");
+	while (myAge != "n") {
+    	alert("Wow, I can't believe " + userName + " would pick that answer. TRY AGAIN!")
+        myAge = prompt("Let's try again. Am I 28 years old?? y or n"); 
+    } if (myAge === "n") {
+    	alert("Correct. I'm not 28. But " + userName + ", a man never tells his true age.")     
+    }
+        //console.log(userName + " answered " + myAge + "regarding that I'm 28.")
