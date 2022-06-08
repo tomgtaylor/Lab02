@@ -14,8 +14,8 @@ let myCity = prompt("Do I live in Spokane, WA?  y / n ")
     	alert("Listen " + userName + ", you should pick an answer.")
     }
         //console.log(userName + " answered " + myCity + " about me living in Spokane.");
-        
-//---------------------------Name Prompt-----------------------------  
+
+//---------------------------Name Prompt-----------------------------
         
 let myEd = prompt("Did I graduate from WSU? y / n ");
 	if (myEd == "y") {
@@ -26,8 +26,8 @@ let myEd = prompt("Did I graduate from WSU? y / n ");
         alert("Seriously " + userName + "??  It's a yes or no answer. It's not rocket science.");        
     }
     	//console.log(userName + " answered" + myName + "about whether I graduated from WSU.");
-               
-//---------------------------Name Prompt-----------------------------    
+
+//---------------------------Name Prompt-----------------------------
 
 let myWork = prompt("Was I elected President of the USA? y / n ");
 	if (myWork == "y") {
