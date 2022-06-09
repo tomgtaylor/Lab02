@@ -7,14 +7,13 @@ alert(userName + ", Good luck answering the below questions.");
 //---------------------------City-----------------------------
 
 let myCity = prompt("Do I live in Spokane, WA?  y / n ")
-    if (myCity == "y") {
-        alert("well done " + userName + ", you are correct!");
-    } else if (myCity == "n") {
-    	alert(userName + ", that was a wrong answer.");
-    } else if (myCity == "") {
-    	alert("Listen " + userName + ", you should pick an answer.")
-    }
-        //console.log(userName + " answered " + myCity + " about me living in Spokane.");
+	if (myCity == "y") {
+		alert("well done " + userName + ", you are correct!");
+	} else if (myCity == "n") {
+		alert(userName + ", that was a wrong answer.");
+	} else if (myCity == "") {
+		alert("Listen " + userName + ", you should pick an answer.")
+            //console.log(userName + " answered " + myCity + " about me living in Spokane.");
 
 //---------------------------Education-----------------------------
         
@@ -99,4 +98,35 @@ for (let number = 0; number < 5; number++){
 //-----------------------Scores loop---------------------------------
 
 //let scores = [myCity, myEd, myWork, myTravel, myAge, numQuestion, myQuestions]
+
+//-----------------------Scores loop---------------------------------
+
+{/* <script>
+
+let favMovies = ['Star Wars', 'Airplane', 'Starship Troopers', 'The Martian', 'Mars Attacks'];
+let numGuesses = 0;
+let allowedAttempts = 5;
+let correctAnswerFound = false;
+
+while ((numGuesses < allowedAttempts) && !correcAnswerFound) {
+
+	let response = prompt('What is my favorite favorite movies?');
+    numGuesses++;
+
+	for (let i = 0; i < favMovies.length; i++)
+		alert(i);
+  	if(response.toLowerCase() === favMovies[i].toLowerCase()) {
+	alert('correct');
+    correctAnswerFound = true;
+    break;   // 'break' means stop loop
+	} else {
+	alert('No Correct');
+	}
+    
+}
+if (!correctAnswerFound) {
+
+alert('you have ' + (allowedAttempts - numGuesses) + ' left');
+}
+</script> */}
 
