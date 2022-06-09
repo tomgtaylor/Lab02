@@ -90,3 +90,13 @@ for (let number = 0; number < 5; number++){
         //console.log("testing");
     }
 }
+//-----------------------Scores loop---------------------------------
+
+// let response = prompt('What is my favorite favorite movies?');
+// let favMovies = ['Star Wars', 'Airplane', '', '', ''];
+// let numGuesses = 0;
+// let allowedAttempts = 5;
+//-----------------------Scores loop---------------------------------
+
+//let scores = [myCity, myEd, myWork, myTravel, myAge, numQuestion, myQuestions]
+
