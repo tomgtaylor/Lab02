@@ -60,7 +60,6 @@ let myAge = prompt("Am I 28 years old? y / n ");
     }
         //console.log(userName + " answered " + myAge + "regarding that I'm 28.")
 
-//console.log(myAnswers[1]);
 //-----------------------for loop math---------------------------------
 const numAnswer = 7;
 
@@ -75,6 +74,7 @@ for (let i = 0; i < 4; i++) {
     	alert("Too Low!");
     }
 }
+//console.log(myAnswers[1]);
 //-----------------------for loop---------------------------------
 
 let myAnswers = ["basketball", "baseball", "hockey"];
@@ -86,9 +86,10 @@ for (let number = 0; number < 5; number++){
         number = 5;
     } else {
     	alert("Wrong. Correct answers were basketball, baseball, or hockey."); 
-        //console.log("testing");
     }
 }
+
+//console.log(myAnswers[1]);
 //-----------------------Scores loop---------------------------------
 
 // let response = prompt('What is my favorite favorite movies?');
