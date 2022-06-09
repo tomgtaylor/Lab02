@@ -59,3 +59,19 @@ let myAge = prompt("Am I 28 years old? y / n ");
     	alert("Correct. I'm not 28. But " + userName + ", a man never tells his true age.")     
     }
         //console.log(userName + " answered " + myAge + "regarding that I'm 28.")
+
+        let myAnswers = ["basketball", "baseball", "hockey"]
+
+//console.log(myAnswers[1]);
+//---------------------------Name Prompt-----------------------------
+for (let number = 0; number < 5; number++){
+	let myQuestions = prompt("What are my favorite sports?");
+	if (myAnswers[0] == myQuestions || myAnswers[1] == myQuestions || myAnswers[2] == myQuestions) {
+    	alert("Correct.");
+        number = 5;
+    } else {
+    	alert("Wrong."); 
+        //console.log("testing");        
+    }
+	
+}
